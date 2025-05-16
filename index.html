@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Medway Ghanaian Association</title>
   <style>
+    /* Reset some basic styling */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -13,19 +14,22 @@
       background-color: #f4f4f4;
     }
 
+    /* Header styling */
     header {
-      background-color: #006600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to bottom, #006B3F 33%, #FCD116 33%, #FCD116 66%, #F00 66%); /* Green, Yellow, Red (Ghana flag colors) */
+      padding: 1rem 2rem;
       color: white;
-      padding: 1rem 0;
-      text-align: center;
     }
 
     header img.logo {
       width: 80px;
       height: auto;
-      margin-bottom: 10px;
     }
 
+    /* Main container styling */
     .container {
       max-width: 900px;
       margin: 2rem auto;
@@ -46,6 +50,7 @@
       margin-bottom: 0.5rem;
     }
 
+    /* Image styling */
     .photo {
       width: 100%;
       height: auto;
@@ -56,8 +61,11 @@
 </head>
 <body>
   <header>
+    <!-- Logo on the left -->
     <img src="logo.png" alt="Association Logo" class="logo" />
     <h1>Medway Ghanaian Association</h1>
+    <!-- Logo on the right -->
+    <img src="logo.png" alt="Association Logo" class="logo" />
   </header>
 
   <div class="container">
@@ -73,7 +81,7 @@
       <li>Signpost and enable access for public and private sector organisations to engage meaningfully with the Ghanaian community in Medway.</li>
     </ul>
 
-    <img src="community.jpg" alt="Medway Ghanaian Community Gathering" class="photo" />
+    <img src="community.jpg" alt="Ghanaian Community Gathering" class="photo" />
   </div>
 </body>
 </html>
